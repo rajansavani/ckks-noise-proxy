@@ -1,0 +1,14 @@
+.venv/
+.git/
+results/
+figures/
+paper/
+runs/
+__pycache__/
+*.pyc
+*.npy
+*.bin
+residual_bins/
+.vscode/
+.idea/
+.DS_Store

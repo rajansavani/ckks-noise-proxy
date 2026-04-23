@@ -1,0 +1,195 @@
+{
+  "results": {
+    "anli_r1": {
+      "alias": "anli_r1",
+      "acc,none": 0.341,
+      "acc_stderr,none": 0.01499813134840269
+    },
+    "anli_r2": {
+      "alias": "anli_r2",
+      "acc,none": 0.339,
+      "acc_stderr,none": 0.014976758771620345
+    },
+    "anli_r3": {
+      "alias": "anli_r3",
+      "acc,none": 0.3491666666666667,
+      "acc_stderr,none": 0.013767075395077261
+    },
+    "arc_easy": {
+      "alias": "arc_easy",
+      "acc,none": 0.43813131313131315,
+      "acc_stderr,none": 0.010180937100600076,
+      "acc_norm,none": 0.3947811447811448,
+      "acc_norm_stderr,none": 0.010030038935883607
+    },
+    "hellaswag": {
+      "alias": "hellaswag",
+      "acc,none": 0.2891854212308305,
+      "acc_stderr,none": 0.004524575892952919,
+      "acc_norm,none": 0.31139215295757816,
+      "acc_norm_stderr,none": 0.004621163476949168
+    },
+    "mnli": {
+      "alias": "mnli",
+      "acc,none": 0.337238920020377,
+      "acc_stderr,none": 0.004772262416487608
+    },
+    "piqa": {
+      "alias": "piqa",
+      "acc,none": 0.6289445048966268,
+      "acc_stderr,none": 0.011271222398600523,
+      "acc_norm,none": 0.6251360174102285,
+      "acc_norm_stderr,none": 0.011294565805619015
+    },
+    "social_iqa": {
+      "alias": "social_iqa",
+      "acc,none": 0.3664278403275333,
+      "acc_stderr,none": 0.010902877999595323
+    },
+    "sst2": {
+      "alias": "sst2",
+      "acc,none": 0.5504587155963303,
+      "acc_stderr,none": 0.016855362214590282
+    },
+    "wic": {
+      "alias": "wic",
+      "acc,none": 0.49216300940438873,
+      "acc_stderr,none": 0.019808287657813818
+    }
+  },
+  "group_subtasks": {
+    "arc_easy": [],
+    "hellaswag": [],
+    "piqa": [],
+    "social_iqa": [],
+    "mnli": [],
+    "sst2": [],
+    "anli_r1": [],
+    "anli_r2": [],
+    "anli_r3": [],
+    "wic": []
+  },
+  "versions": {
+    "anli_r1": 1.0,
+    "anli_r2": 1.0,
+    "anli_r3": 1.0,
+    "arc_easy": 1.0,
+    "hellaswag": 1.0,
+    "mnli": 1.0,
+    "piqa": 1.0,
+    "social_iqa": 0.0,
+    "sst2": 1.0,
+    "wic": 1.0
+  },
+  "n-shot": {
+    "anli_r1": 0,
+    "anli_r2": 0,
+    "anli_r3": 0,
+    "arc_easy": 0,
+    "hellaswag": 0,
+    "mnli": 0,
+    "piqa": 0,
+    "social_iqa": 0,
+    "sst2": 0,
+    "wic": 0
+  },
+  "higher_is_better": {
+    "anli_r1": {
+      "acc": true
+    },
+    "anli_r2": {
+      "acc": true
+    },
+    "anli_r3": {
+      "acc": true
+    },
+    "arc_easy": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "hellaswag": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "mnli": {
+      "acc": true
+    },
+    "piqa": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "social_iqa": {
+      "acc": true
+    },
+    "sst2": {
+      "acc": true
+    },
+    "wic": {
+      "acc": true
+    }
+  },
+  "n-samples": {
+    "wic": {
+      "original": 638,
+      "effective": 638
+    },
+    "anli_r3": {
+      "original": 1200,
+      "effective": 1200
+    },
+    "anli_r2": {
+      "original": 1000,
+      "effective": 1000
+    },
+    "anli_r1": {
+      "original": 1000,
+      "effective": 1000
+    },
+    "sst2": {
+      "original": 872,
+      "effective": 872
+    },
+    "mnli": {
+      "original": 9815,
+      "effective": 9815
+    },
+    "social_iqa": {
+      "original": 1954,
+      "effective": 1954
+    },
+    "piqa": {
+      "original": 1838,
+      "effective": 1838
+    },
+    "hellaswag": {
+      "original": 10042,
+      "effective": 10042
+    },
+    "arc_easy": {
+      "original": 2376,
+      "effective": 2376
+    }
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=gpt2,trust_remote_code=True",
+    "model_num_parameters": 124439808,
+    "model_dtype": "torch.float32",
+    "model_revision": "main",
+    "model_sha": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+    "batch_size": 8,
+    "batch_sizes": [],
+    "device": "cpu",
+    "use_cache": null,
+    "limit": 1000000,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null,
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "date": 1753326092.811225,
+  "transformers_version": "4.52.4",
+  "lm_eval_version": "0.4.9"
+}

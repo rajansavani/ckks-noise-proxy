@@ -1,0 +1,9 @@
+# core ML
+transformers==4.52.4
+lm-eval==0.4.9
+numpy>=1.24
+pandas>=2.0
+
+# plotting
+matplotlib>=3.7
+seaborn>=0.12
